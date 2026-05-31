@@ -1,0 +1,1 @@
+- [Project Infrastructure Patterns](project_infra_patterns.md) — Security audit baseline for S3+CloudFront static site; known issues as of 2026-05-31
