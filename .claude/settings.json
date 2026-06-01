@@ -23,7 +23,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash .claude/hooks/user-prompt-guard.sh"
+            "command": "bash \"$(git rev-parse --show-toplevel)/.claude/hooks/user-prompt-guard.sh\""
           }
         ]
       }
@@ -34,7 +34,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash .claude/hooks/pre-tool-guard.sh"
+            "command": "bash \"$(git rev-parse --show-toplevel)/.claude/hooks/pre-tool-guard.sh\""
           }
         ]
       }
@@ -45,7 +45,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash .claude/hooks/post-tool-logger.sh"
+            "command": "bash \"$(git rev-parse --show-toplevel)/.claude/hooks/post-tool-logger.sh\""
           }
         ]
       }
